@@ -1,0 +1,7 @@
+public void onclick() {
+        var path = StandaloneFileBrowser.SaveFilePanel("Title", "", "sample", "txt");
+        if (!string.IsNullOrEmpty(path)) {
+            File.WriteAllText(path, _data);
+            ///AyyyLMAO
+        }
+    }
